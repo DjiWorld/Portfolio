@@ -1,0 +1,322 @@
+/* GLOBALEMENT...Body */
+body{
+    background-color: #5c48d2;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+/* HEADER */
+header{
+    font-size: 48px;
+    color: white;
+    line-height : 200px;
+
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    line-height: 200px;
+    text-align: center;
+}
+
+/* MAIN */
+
+.main-block{
+    width: 1024px;
+    background-color: white;
+    height: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 9px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 71px;   
+    float: right;
+}
+
+a{
+    height: 100px;
+    font-size: 20px;
+    color: #190f33;
+    text-decoration: none;
+    
+ 
+}
+
+a:hover{
+    color:#FCCB42 ;
+    font-weight: bold;
+}
+
+/* Image du main _________________________________*/
+
+img{
+    height: 400px;
+    width: 1024px;
+    object-fit : cover;
+    
+}
+.me2{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 80px;
+        border: solid #FCCB42 4px;
+      
+    }
+
+    .me2:hover{
+        border: solid #5C48D2 8px;
+    }
+
+#about-me{
+        
+        padding: 100px;
+        background-color: white ;
+
+    }
+
+.presentation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+.nom{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.nom{
+    color: #5C48D2;
+}
+
+.city, .job{
+    font-size: 30px;
+    color: #190f33;
+
+}
+
+.city{
+    font-size: 20px;
+    font-style: italic;
+    color: #190f33;
+}
+
+
+
+ h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #190f33;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+/* section formation ________________________*/
+
+.education{
+        
+    padding: 100px;
+    background-color: #7969d8 ;
+    
+
+}
+
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color :;
+    margin-bottom: 80px;
+    margin-top: -94px;
+}
+
+
+.technologies-logo { 
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.technologies-logo img{
+    height: 100px;
+    width: 100px;
+   
+}
+
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.formation{
+    margin-top: 20px;
+}
+
+.formation,.text-form{
+    color: white;
+    text-align: center;
+    margin: 5% auto;
+}
+
+/* PROJETS __________________________________*/
+
+#projets{
+    padding: 100px;
+    background-color: white ;
+
+}
+
+.project img {
+    height: 640px;
+    width: 304px;
+    object-fit: cover;
+}
+
+
+.project-description1{
+    float: right;
+    margin: 20px;
+}
+
+h3{
+    font-size: 26px;
+    color: #190f33;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+li {
+    list-style-type: disc;
+    line-height: 30px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.project2 img {
+    height: 329px;
+    width: 510px;
+    
+}
+
+.project-description2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    margin: 20px;
+}
+
+.project-description2 img {
+    width: 500px;
+    margin-right: 60px;
+}
+
+
+/* contact__________________ */
+
+#contact {
+    padding: 100px;
+    background-color: white ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contactme{
+
+        font-size: 30px;
+        font-weight: bold;
+        color: #190f33;
+        text-align: center;
+        margin-bottom: 80px;
+        margin: 20px;
+
+}
+
+.contact-line img {
+    height: 50px;
+    width: 51px;
+    margin-right: 126px;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    line-height: 30px;
+}
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    height: 47px;
+    width: 231px;
+    font-size: 20px;
+    decoration: none;
+    color: black;
+}
+
+.contact-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+footer     {
+height: 345px;
+width: 839px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+footer p, footer a {
+    line-height: 40px;
+}
+footer p {
+    color: #c4c4c4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fcc01a;
+}
+
